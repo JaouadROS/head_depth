@@ -1,7 +1,0 @@
-<launch>
-
- <node name="depth_subscription_throttle" pkg="head_depth" type="depth_subscription_throttle" />
-
- <node name="head_detection" pkg="head_depth" type="head_detection" output="screen"/>
- 
-</launch>
