@@ -40,4 +40,4 @@ NODES
 
 The head detected is displayed in a depth image as a white rectangle. 
 
-The first node depth_subscription_throttle is publishing depth image in 8UC1 format in 15 fps. After that the node head_detection is subscribing to it and detecting heads (or anything similar to it, like a Vase with flowers! ) using haar detector.
+The first node depth_subscription_throttle is publishing depth image in 8UC1 format in 15 fps. After that the node head_detection is subscribing to that topic and detecting heads (or anything similar, like a Vase with flowers! ) using haar detector.
